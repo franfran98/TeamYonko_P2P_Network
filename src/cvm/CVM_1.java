@@ -27,13 +27,6 @@ public class CVM_1 extends AbstractCVM{
 				10.0,
 				"accessPointRoutingInboundPortURI-1"	
 		});
-		AbstractComponent.createComponent(AccessPoint.class.getCanonicalName(), new Object[] {
-				new P2PAddress("accessPointAddress-2"),
-				"accessPointCommunicationInboundPortURI-2",
-				new Position(3,4),
-				3.0,
-				"accessPointRoutingInboundPortURI-2"	
-		});
 		AbstractComponent.createComponent(Internal.class.getCanonicalName(), new Object[] {
 				new P2PAddress("InternalAddress-1"),
 				"InternalCommunicationInboundPortURI-1",

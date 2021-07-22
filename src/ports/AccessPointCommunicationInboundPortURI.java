@@ -1,9 +1,7 @@
 package ports;
 
 import components.AccessPoint;
-import components.Simulator;
 import fr.sorbonne_u.components.ComponentI;
-import fr.sorbonne_u.components.examples.basic_cs.components.URIProvider;
 import fr.sorbonne_u.components.ports.AbstractInboundPort;
 import interfaces.CommunicationCI;
 import interfaces.MessageI;

@@ -11,9 +11,9 @@ import interfaces.P2PAddressI;
 
 public class CommunicationOutboundPortURI extends AbstractOutboundPort implements CommunicationCI{
 
-	public CommunicationOutboundPortURI(String uri, ComponentI owner)
+	public CommunicationOutboundPortURI(ComponentI owner)
 			throws Exception {
-		super( uri, CommunicationCI.class, owner);
+		super(CommunicationCI.class, owner);
 		// TODO Auto-generated constructor stub
 	}
 

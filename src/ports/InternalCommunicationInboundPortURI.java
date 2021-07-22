@@ -8,9 +8,9 @@ import interfaces.CommunicationCI;
 import interfaces.MessageI;
 import interfaces.P2PAddressI;
 
-public class InternalPointCommunicationInboundPortURI extends AbstractInboundPort implements CommunicationCI{
+public class InternalCommunicationInboundPortURI extends AbstractInboundPort implements CommunicationCI{
 	
-	public InternalPointCommunicationInboundPortURI(String uri, ComponentI owner)
+	public InternalCommunicationInboundPortURI(String uri, ComponentI owner)
 			throws Exception {
 		super(uri, CommunicationCI.class, owner);
 		// TODO Auto-generated constructor stub

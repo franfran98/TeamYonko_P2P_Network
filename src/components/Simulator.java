@@ -59,6 +59,8 @@ public class Simulator extends AbstractComponent{
 		System.out.println("Enregistrement d'un élément interne");
 		Set<ConnectionInfo> res = new HashSet<>();
 		
+		internals.put(address, new ElementData(communicationInboundPortURI, initialPosition, routingInboundPortURI));
+
 		for (Map.Entry inter : internals.entrySet()) {
 			ElementData current = ((ElementData) inter.getValue());
 			PositionI temp = ((ElementData) inter.getValue()).getInitialPosition();	    
